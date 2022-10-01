@@ -159,10 +159,11 @@ ul {
     flex-direction: column;
     border-radius: 20px;
     color: white;
+    justify-content: center;
 }
 .container-video {
     height: 240px;
-    width: 500px;
+    width: 100%;
     border: 2px solid white;
     border-radius: 20px;
 }
@@ -185,7 +186,7 @@ ul {
     height: 40px;
     line-height: 40px;
     padding: 10px 5px;
-    margin: 30px;
+    margin: 23px;
     background-color: #060813;
     color: white;
     border-radius: 5px;
