@@ -7,13 +7,13 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+
 body {
     display: flex;
     flex-direction: column;
 }
 .header {
-    /* height: 75px; */
-    height: 4.688rem;
+    height: 4.688rem; /*75px*/
     /* width: 100vw; */
     width: 100%;
     /* padding-left: 50px; */
@@ -47,8 +47,7 @@ body {
 }
 .header-menu a:hover {
     transition: 0.2s;
-    /* font-size: 21px; */
-    font-size: 131.25%;
+    font-size: 131.25%; /*21px*/
     color: red;
 }
 ul {
@@ -84,6 +83,10 @@ ul {
     /* border-radius: 360px; */
     border-radius: 22.5rem;
 }
+#foto:hover, .inicio::after  {
+    transition: 0.2s;
+    color: red;
+}
 .inicio, .formacao, .contatos {
     background-color: black;
 }
@@ -101,7 +104,7 @@ ul {
     flex-direction: column;
 }
 .sobre-texto {
-    height: 18.75rem;
+    height: 18.75rem; /*300px*/
     color: white;
     background-color: black;
     /* border: 1px solid white; */
@@ -144,6 +147,7 @@ ul {
     border: 2px solid white;
     /* border-radius: 20px; */
     border-radius: 1.25rem;    
+    text-align: left;
 }
 .principal-texto ul {
     display: flex;
@@ -211,8 +215,7 @@ ul {
     border-radius: 20px;
 }
 .container-texto {
-    /* margin-top: 20px; */
-    margin-top: 1.25rem;
+    margin-top: 1.25rem; /*20px*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -251,338 +254,39 @@ ul {
     /* border: 1px solid white; */
     border: 0.063rem solid white;
 }
+.container-texto a:hover {
+    background-color: white;
+    color: black;
+}
 .contatos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-@media (min-width: 1440px) and (max-width: 2559px){
-    .header {
-        padding-left: 2.5rem;
-    }
-    
-    .header-nome {
-        /* font-size: 26px; */
-        font-size: 162.5%;
-    }   
-    .header-nome:hover {
-        /* font-size: 30px; */
-        font-size: 187.50%;
-    }
-    .header-menu {
-        /* margin-right: 115px; */
-        margin-right: 7.188rem;
-    }
-    .header-menu a {
-        font-size: 106.25%;
-    }    
-    ul {
-        /* gap: 50px; */
-        gap: 3.125rem;
-    }
-    .inicio-texto, .inicio-imagem {
-        /* padding-top: 73px; */
-        padding-top: 4.563rem;
-    }
-    .inicio-texto {
-        /* padding-left: 32px; */
-        padding-left: 2rem;
-    }
-    #texto-principal, #texto-principal-i {
-        /* font-size: 56px; */
-        font-size: 350%;
-    }
-    #texto-secundario {
-        /* font-size: 35px; */
-        font-size: 218.75%;
-    }
-    #foto {
-        width: 26.688rem;
-    }
-    .sobre-texto {
-        /* width: 995px; */
-        width: 62.188rem;
-    }
-    .sobre-texto h2 {
-        /* font-size: 26px; */
-        font-size: 162.5%;
-    }
-    .sobre-texto p {
-        /* font-size: 20px; */
-        font-size: 125%;
-    }
-    .sobre-badge {
-        /* height: 145px; */
-        height: 9.063rem;
-        /* width: 1000px; */
-        width: 62.5rem;
-    }
-    .badges {
-        height: 6.25rem;
-    }    
-    .formacao {
-        /* padding-top: 35px; */
-        padding-top: 2.188rem;
-    }
-    .principal-texto {
-        /* font-size: 22px; */
-        font-size: 137.50%;
-        /* padding-left: 50px; */
-        padding-left: 3.125rem;
-        /* padding-right: 50px; */
-        padding-right: 3.125rem;
-        text-align: left;
-    } 
-    .principal-texto ul {
-        /* padding-left: 25px; */
-        padding-left: 1.563rem;
-        /* padding-right: 20px; */
-        padding-right: 1.25rem;
-    }
-    #alca {
-        /* height: 50px; */
-        height: 3.125rem;
-        /* width: 255px; */
-        width: 15.938rem;
-    }
-    #alca-i {
-        /* margin-top: 21px; */
-        margin-top: 1.313rem;
-        /* height: 25px; */
-        height: 1.563rem;
-        /* width: 210px; */
-        width: 13.125rem;
-    }
-    #senai::after, #dio::after, #fadivale::after {
-        /* margin-left: 5px; */
-        margin-left: 0.313rem;
-    }
-    .projetos-container {
-        height: 78vh;
-        width: 33vw;
-    }
-    .container-imagem {
-        height: 275px;
-    }
-    .container-texto {
-        margin-top: 0.938rem;
-    }
-    .contatos-imagens {
-        /* height: 190px; */
-        height: 11.875rem;
-        /* width: 1000px; */
-        width: 62.5rem;
-        /* border-radius: 250px; */
-        border-radius: 15.625rem;
-        /* border: 1px solid white; */
-        border: 0.063rem solid white;
-        background-color: #060813;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        /* padding-left: 50px; */
-        padding-left: 3.125rem;
-        /* padding-right: 50px; */
-        padding-right: 3.125rem;
-    }
-    .container-texto p {
-        margin-top: 0.625rem; /*10 px*/
-        padding-left: 0.813rem; /*13 px*/
-        padding-right: 0.188rem; /*3 px*/
-    }
-    .container-texto a {
-        width: 9.375rem; /*150px*/
-        height: 2.313rem;
-        margin-top: 2rem; /*32px*/
-    }
-    .container-texto a:hover {
-        background-color: white;
-        color: black;
-    }
-    .contatos-texto {
-        color: white;
-        /* font-size: 35px; */
-        font-size: 218.75%;
-        /* padding-bottom: 35px; */
-        padding-bottom: 2.188rem;
-    }
-    .fa-brands, .fa-github .fa-linkedin .fa-square-instagram .fa-square-whatsapp, .fa-solid, .fa-envelope {
-        /* font-size: 115px; */
-        font-size: 718.75%;
-        color: white;
-    }
-    .fa-github:hover, .fa-linkedin:hover,.fa-square-instagram:hover, .fa-envelope:hover, .fa-square-whatsapp:hover {
-        /* font-size: 170px; */
-        font-size: 1062.5%;
-        cursor:pointer;
-        transition: 0.1s;
-        transform: rotateZ(360deg);
-    }
-    .footer{
-        /* font-size: 17px; */
-        font-size: 106.25%;
-    }
+.contatos-imagens {
+    border: 0.063rem solid white; /*1px*/
+    border-radius: 15.625rem; /*250px*/
+    background-color: #060813;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-@media (min-width: 1024px) and (max-width: 1439px){
-    .header-nome {
-        /* font-size: 20px; */
-        font-size: 143.75%;
-    }   
-    .header-nome:hover {
-        /* font-size: 26px; */
-        font-size: 162.50%;
-    }
-    .header-menu {
-        /* margin-right: 100px; */
-        margin-right: 6.25rem;
-    }
-    .header-menu a {
-        font-size: 93.75%;
-    }    
-    ul {
-        /* gap: 50px; */
-        gap: 2.938rem;
-    }
-    .inicio-texto, .inicio-imagem {
-        /* padding-top: 70px; */
-        padding-top: 4.375rem;
-    }
-    .inicio-texto {
-        /* padding-left: 29px; */
-        padding-left: 1.813rem;
-    }
-    #texto-principal, #texto-principal-i {
-        /* font-size: 45px; */
-        font-size: 281.25%;
-    }
-    #texto-secundario {
-        /* font-size: 35px; */
-        font-size: 168.75%;
-    }
-    #foto {
-        width: 23.75rem;
-    }
-    .sobre-container {
-        justify-content: center;
-        align-items: center;
-    }
-    .sobre-texto {
-        /* width: 800px; */
-        width: 50rem;
-    }
-    .sobre-texto h2 {
-        /* font-size: 24px; */
-        font-size: 150%;
-    }
-    .sobre-texto p {
-        /* font-size: 18px; */
-        font-size: 112.5%;
-    }
-    .sobre-badge {
-        /* height: 120px; */
-        height: 7.5rem;
-        /* width: 800px; */
-        width: 50rem;
-    }
-    .badges {
-        height: 5.313rem;
-    }
-    .formacao {
-        /* padding-top: 30px; */
-        padding-top: 1.875rem;
-    }
-    .principal-texto {
-        /* font-size: 20px; */
-        font-size: 125%;
-        /* padding-left: 45px; */
-        padding-left: 2.813rem;
-        /* padding-right: 45px; */
-        padding-right: 2.813rem;
-        text-align: left;
-    } 
-    .principal-texto ul {                        
-        /* padding-left: 23px; */
-        padding-left: 1.438rem;
-        /* padding-right: 18px; */
-        padding-right: 1.125rem;
-    }
-    #alca {
-        /* height: 47px; */
-        height: 2.938rem;
-        /* width: 250px; */
-        width: 15.625rem;
-    }
-    #alca-i {
-        /* margin-top: 19px; */
-        margin-top: 1.188rem;
-        /* height: 23px; */
-        height: 1.438rem;
-        /* width: 205px; */
-        width: 12.813rem;
-    }
-    #senai::after, #dio::after, #fadivale::after {
-        /* margin-left: 4px; */
-        margin-left: 0.25rem;
-    }
-    .container-texto a {
-        width: 9.375rem; /*150px*/
-        height: 2.313rem;
-        margin-top: 3rem; /*48px*/
-    }
-    .container-texto a:hover {
-        background-color: white;
-        color: black;
-    }
-    .contatos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .contatos-texto {
-        color: white;
-        /* font-size: 35px; */
-        font-size: 187.5%;
-        /* padding-bottom: 35px; */
-        padding-bottom: 2.188rem;
-    }
-    .contatos-imagens {
-        /* height: 190px; */
-        height: 9.375rem;
-        /* width: 800px; */
-        width: 50rem;
-        /* border-radius: 250px; */
-        border-radius: 15.625rem;
-        /* border: 1px solid white; */
-        border: 0.063rem solid white;
-        background-color: #060813;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        /* padding-left: 40px; */
-        padding-left: 2.5rem;
-        /* padding-right: 50px; */
-        padding-right: 2.5rem;
-    }
-    .fa-brands, .fa-github .fa-linkedin .fa-square-instagram .fa-square-whatsapp, .fa-solid, .fa-envelope {
-        /* font-size: 90px; */
-        font-size: 562.5%;
-        color: white;
-    }
-    .fa-github:hover, .fa-linkedin:hover,.fa-square-instagram:hover, .fa-envelope:hover, .fa-square-whatsapp:hover {
-        /* font-size: 120px; */
-        font-size: 750%;
-        cursor:pointer;
-        transition: 0.1s;
-        transform: rotateZ(360deg);
-    }
-    footer {
-        /* font-size: 15px; */
-        font-size: 93.75%;
-    }
+.contatos-imagens:hover {
+    border: 0.063rem solid red; /*1px*/
+}
+.contatos-texto {
+    color: white;
+    padding-bottom: 2.188rem; /*35px*/
+}
+.fa-brands, .fa-github .fa-linkedin .fa-square-instagram .fa-square-whatsapp, .fa-solid, .fa-envelope {
+    color: white;
+}
+.fa-github:hover, .fa-linkedin:hover,.fa-square-instagram:hover, .fa-envelope:hover, .fa-square-whatsapp:hover {
+    cursor:pointer;
+    transition: 0.1s;
+    transform: rotateZ(360deg);
 }
 .fa-github:hover {
     color: #1A1158;
@@ -608,3 +312,331 @@ footer {
     justify-content: center;
     align-items: center;
 }
+@media screen and (min-width: 1440px) and (max-width: 2560px){
+    .header {
+        padding-left: 2.5rem;
+    }
+    .header-nome {
+        font-size: 162.5%; /*26px*/
+    }   
+    .header-nome:hover {
+        /* font-size: 30px; */
+        font-size: 187.50%;
+    }
+    .header-menu {
+        margin-right: 7.188rem; /*115px*/
+    }
+    .header-menu a {
+        font-size: 106.25%;
+    }    
+    ul {
+        gap: 3.125rem; /*50px*/
+    }
+    .inicio-texto, .inicio-imagem {
+        padding-top: 4.563rem; /*73px*/
+    }
+    .inicio-texto {
+        padding-left: 2rem; /*32px*/
+    }
+    #texto-principal, #texto-principal-i {
+        font-size: 350%; /*56px*/
+    }
+    #texto-secundario {
+        font-size: 218.75%; /*35px*/
+    }
+    #foto {
+        width: 26.688rem; /*427px*/
+    }
+    .sobre-texto {
+        width: 62.188rem; /*995px*/
+    }
+    .sobre-texto h2 {
+        font-size: 162.5%; /*26px*/
+    }
+    .sobre-texto p {
+        font-size: 125%; /*20px*/
+    }
+    .sobre-badge {
+        height: 9.063rem; /*145px*/
+        width: 62.5rem; /*1000px*/
+    }
+    .badges {
+        height: 6.25rem; /*100px*/
+    }    
+    .formacao {
+        padding-top: 2.188rem; /*35px*/
+    }
+    .principal-texto {
+        font-size: 137.50%; /*22px*/
+        padding-left: 3.125rem; /*50px*/
+        padding-right: 3.125rem; /*50px*/
+    } 
+    .principal-texto ul {
+        padding-left: 1.563rem; /*25px*/
+        padding-right: 1.25rem; /*20px*/
+    }
+    #alca {
+        height: 3.125rem; /*50px*/
+        width: 15.938rem; /*255px*/
+    }
+    #alca-i {
+        margin-top: 1.313rem; /*21px*/
+        height: 1.563rem; /*25px*/
+        width: 13.125rem; /*210px*/
+    }
+    #senai::after, #dio::after, #fadivale::after {
+        margin-left: 0.313rem; /*5px*/
+    }
+    .projetos-container {
+        height: 78vh;
+        width: 33vw;
+    }
+    .container-imagem {
+        height: 275px;
+    }
+    .container-texto {
+        margin-top: 0.938rem;
+    }
+    .contatos-imagens {
+        height: 11.875rem; /*190px*/
+        width: 62.5rem; /*1000px*/
+        padding-left: 3.125rem; /*50px*/
+        padding-right: 3.125rem; /*50px*/
+    }
+    .container-texto p {
+        margin-top: 0.625rem; /*10 px*/
+        padding-left: 0.813rem; /*13 px*/
+        padding-right: 0.188rem; /*3 px*/
+    }
+    .container-texto a {
+        width: 9.375rem; /*150px*/
+        height: 2.313rem; /*37px*/
+        margin-top: 2rem; /*32px*/
+    }
+    .contatos-texto {
+        font-size: 218.75%; /*35px*/
+    }
+    .fa-brands, .fa-github .fa-linkedin .fa-square-instagram .fa-square-whatsapp, .fa-solid, .fa-envelope {
+        font-size: 718.75%; /*115px*/
+    }
+    .fa-github:hover, .fa-linkedin:hover,.fa-square-instagram:hover, .fa-envelope:hover, .fa-square-whatsapp:hover {
+        font-size: 1062.5%; /*170px*/
+    }
+    .footer{
+        font-size: 106.25%; /*17px*/
+    }
+}
+@media (min-width: 1023px) and (max-width: 1439px){
+    .header-nome {
+        font-size: 143.75%; /*20px*/
+    }   
+    .header-nome:hover {
+        /* font-size: 26px; */
+        font-size: 162.50%;
+    }
+    .header-menu {
+        margin-right: 6.25rem; /*100px*/
+    }
+    .header-menu a {
+        font-size: 93.75%;
+    }    
+    ul {        
+        gap: 2.938rem; /*47px*/
+    }
+    .inicio-texto, .inicio-imagem {
+        padding-top: 4.375rem; /*70px*/
+    }
+    .inicio-texto {
+        padding-left: 1.813rem; /*29px*/
+    }
+    #texto-principal, #texto-principal-i {
+        font-size: 281.25%; /*45px*/
+    }
+    #texto-secundario {
+        font-size: 168.75%; /*27px*/
+    }
+    #foto {
+        width: 23.75rem; /*380px*/
+    }
+    .sobre-container {
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-texto {
+        width: 50rem; /*800px*/
+    }
+    .sobre-texto h2 {        
+        font-size: 150%; /*24px*/
+    }
+    .sobre-texto p {
+        font-size: 112.5%; /*18px*/
+    }
+    .sobre-badge {
+        height: 7.5rem; /*120px*/
+        width: 50rem; /*800px*/
+    }
+    .badges {
+        height: 5.313rem; /*85px*/
+    }
+    .formacao {
+        padding-top: 1.875rem; /*30px*/
+    }
+    .principal-texto {
+        font-size: 125%; /*20px*/
+        padding-left: 2.813rem; /*45px*/
+        padding-right: 2.813rem; /*45px*/
+    } 
+    .principal-texto ul {                        
+        padding-left: 1.438rem; /*23px*/
+        padding-right: 1.125rem; /*18px*/
+    }
+    #alca {
+        height: 2.938rem; /*47px*/
+        width: 15.625rem; /*250px*/
+    }
+    #alca-i {
+        margin-top: 1.188rem; /*19px*/
+        height: 1.438rem;  /*23px*/
+        width: 12.813rem; /*205px*/
+    }
+    #senai::after, #dio::after, #fadivale::after {
+        margin-left: 0.25rem;
+    }
+    .projetos-container {
+        height: 84vh;
+        width: 35vw;
+    }
+    .container-texto a {
+        width: 9.375rem; /*150px*/
+        height: 2.313rem; /*37px*/
+        margin-top: 0.55rem; /*48px*/
+    }
+    .contatos-texto {
+        font-size: 187.5%; /*35px*/
+    }
+    .contatos-imagens {
+        height: 9.375rem; /*150px*/
+        width: 50rem; /*800rem*/       
+        padding-left: 2.5rem; /*40px*/
+        padding-right: 2.5rem; /*50px*/
+    }
+    .fa-brands, .fa-github .fa-linkedin .fa-square-instagram .fa-square-whatsapp, .fa-solid, .fa-envelope {
+        font-size: 562.5%; /*90px*/
+    }
+    .fa-github:hover, .fa-linkedin:hover,.fa-square-instagram:hover, .fa-envelope:hover, .fa-square-whatsapp:hover {
+        font-size: 750%; /*120px*/
+    }
+    footer {
+        font-size: 93.75%; /*15px*/
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header-nome {
+        font-size: 118.75%; /*19px*/
+    }   
+    .header-nome:hover {
+        /* font-size: 26px; */
+        font-size: 156.25%; /*25*/
+    }
+    .header-menu {
+        margin-right: 6.25rem; /*100px*/
+    }
+    .header-menu a {
+        font-size: 87.5%; /*14px*/
+    }    
+    ul {        
+        gap: 2.813rem; /*45px*/
+    }
+    .inicio-texto, .inicio-imagem {
+        padding-top: 4.063rem; /*65px*/
+    }
+    .inicio-texto {
+        padding-left: 1.563rem; /*25px*/
+    }
+    #texto-principal, #texto-principal-i {
+        font-size: 275%; /*44px*/
+    }
+    #texto-secundario {
+        font-size: 162.50%; /*26px*/
+    }
+    #foto {
+        width: 23.438rem; /*375px*/
+    }
+    .sobre-container {
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-texto {
+        height: 15.625rem; /*250px*/
+        width: 46.875rem; /*750px*/
+    }
+    .sobre-texto h2 {        
+        font-size: 143.75%; /*23px*/
+    }
+    .sobre-texto p {
+        font-size: 106.25%; /*17px*/
+    }
+    .sobre-badge {
+        height: 6.25rem; /*100px*/
+        width: 46.875rem; /*750px*/
+    }
+    .badges {
+        height: 4.063rem; /*65px*/
+    }
+    .formacao {
+        padding-top: 1.563rem; /*25px*/
+    }
+    .principal-texto {
+        font-size: 106.25%; /*17px*/
+        padding-left: 2.5rem; /*40px*/
+        padding-right: 2.5rem; /*40px*/
+    } 
+    .principal-texto ul {                        
+        padding-left: 1.25rem; /*20px*/
+        padding-right: 1rem; /*16px*/
+    }
+    #alca {
+        height: 2.688rem; /*43px*/
+        width: 15.313rem; /*245px*/
+    }
+    #alca-i {
+        margin-top: 1.188rem; /*19px*/
+        height: 1.438rem;  /*23px*/
+        width: 12.813rem; /*205px*/
+    }
+    #senai::after, #dio::after, #fadivale::after {
+        margin-left: 0.188rem; /*3px*/
+    }
+    .projetos-container {
+        height: 84vh;
+        width: 50vw;
+    }
+    .container-texto a {
+        width: 9.375rem; /*150px*/
+        height: 2.313rem; /*37px*/
+        margin-top: 0.55rem; /*48px*/
+    }
+    .contatos-texto {
+        font-size: 168.75%; /*27px*/
+    }
+    .contatos-imagens {
+        height: 8.125rem; /*130px*/
+        width: 45.938rem; /*735px*/       
+        padding-left: 2.188rem; /*35px*/
+        padding-right: 2.813rem; /*45px*/
+    }
+    .fa-brands, .fa-github .fa-linkedin .fa-square-instagram .fa-square-whatsapp, .fa-solid, .fa-envelope {
+        font-size: 468.75%; /*75px*/
+    }
+    .fa-github:hover, .fa-linkedin:hover,.fa-square-instagram:hover, .fa-envelope:hover, .fa-square-whatsapp:hover {
+        font-size: 656.25%; /*105px*/
+    }
+    footer {
+        font-size: 87.5%; /*14px*/
+    }
+}
+
+
+
+
