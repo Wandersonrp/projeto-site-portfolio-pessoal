@@ -14,20 +14,16 @@ body {
 }
 .header {
     height: 4.688rem; /*75px*/
-    /* width: 100vw; */
     width: 100%;
-    /* padding-left: 50px; */
-    padding-left: 3.125rem;
-    /* padding-right: 50px; */
-    padding-right: 3.125rem;
+    padding-left: 3.125rem; /*50px*/
+    padding-right: 3.125rem; /*50px*/
     background-color: #060813;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    /* border-bottom: 1px solid white; */
-    border-bottom: 0.063rem solid white;
+    border-bottom: 0.063rem solid white; /*1px*/
     transition: 0.5s;
 }
 .header-nome:hover {
@@ -56,10 +52,8 @@ ul {
     flex-direction: row;
 }
 .inicio, .formacao, .sobre, .projetos,.contatos {
-    /* border-right: 3px solid red; */
-    border-right: 0.188rem solid red;
-    /* border-left: 2px solid red; */
-    border-left: 0.125rem solid red;
+    border-right: 0.188rem solid red; /*3px*/
+    border-left: 0.125rem solid red; /*2px*/
     height: 100vh;
 }
 .inicio {
@@ -78,10 +72,8 @@ ul {
     font-weight: bold;
 }
 #foto {
-    /* box-shadow: 0px 0px 2px 5px; */
-    box-shadow: 0px 0px 0.125rem 0.313rem;
-    /* border-radius: 360px; */
-    border-radius: 22.5rem;
+    box-shadow: 0px 0px 0.125rem 0.313rem; /*2px 5px*/
+    border-radius: 22.5rem; /*360px*/
 }
 #foto:hover, .inicio::after  {
     transition: 0.2s;
@@ -107,26 +99,19 @@ ul {
     height: 18.75rem; /*300px*/
     color: white;
     background-color: black;
-    /* border: 1px solid white; */
-    border: 0.063rem solid white; 
+    border: 0.063rem solid white; /*1px*/
     text-align: center;
-    /* padding-left: 5px; */
-    padding-left: 0.313rem;
-    /* padding-right: 5px; */
-    padding-right: 0.313rem;
-    border-radius: 20px;
+    padding-left: 0.313rem; /*5px*/
+    padding-right: 0.313rem; /*5px*/
+    border-radius: 1.25px; /*20px*/
 }
 .sobre-texto h2 {
-    /* padding-top: 20px; */
-    padding-top: 1.25rem;
-    /* margin-bottom: 35px; */
-    margin-bottom: 2.188rem;
+    padding-top: 1.25rem; /*20px*/
+    margin-bottom: 2.188rem; /*35px*/
 }
 .sobre-badge {
-    /* border: 1px solid white; */
-    border: 0.063rem solid white;
-    /* border-radius: 30px; */
-    border-radius: 1.875rem;
+    border: 0.063rem solid white; /*1px*/
+    border-radius: 1.875rem; /*30px*/
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -145,32 +130,26 @@ ul {
     display: flex;
     color: white;
     border: 2px solid white;
-    /* border-radius: 20px; */
-    border-radius: 1.25rem;    
+    border-radius: 1.25rem; /*20px*/
     text-align: left;
 }
 .principal-texto ul {
     display: flex;
     flex-direction: column;
-    /* border-left: 1px solid white; */
-    border-left: 0.063rem solid white;
-    /* border-right: 1px solid white; */
-    border-right: 0.063rem solid white;
+    border-left: 0.063rem solid white; /*1px*/
+    border-right: 0.063rem solid white; /*1px*/
     justify-content: center;
     align-content: center;
 }
 #alca {
-    border: 0.063rem solid white;
+    border: 0.063rem solid white; /*1px*/
     display: flex;
     justify-content: center;
 }
 #alca-i {
-    /* border-top: 1px solid white; */
-    border-top: 0.063rem solid white;
-    /* border-left: 1px solid white; */
-    border-left: 0.063rem solid white;
-    /* border-right: 1px solid white; */
-    border-right: 0.063rem solid white;
+    border-top: 0.063rem solid white; /*1px*/
+    border-left: 0.063rem solid white; /*1px*/
+    border-right: 0.063rem solid white; /*1px*/
 }
 #senai::after, #dio::after, #fadivale::after {
     content: '|';
@@ -199,20 +178,19 @@ ul {
     background-color: black;
     display: flex;
     flex-direction: column;
-    /* border-radius: 20px; */
-    border-radius: 1.25rem;
+    border-radius: 1.25rem; /*20px*/
     color: white;
     justify-content: flex-start;
 }
 .container-imagem {
     border: 1px solid white;
-    height: 300px;
-    border-radius: 20px;
+    height: 18.75rem; /*300px*/
+    border-radius: 1.25rem; /*20px*/
 }
 .imagem-projeto {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 1.25rem; /*20px*/
 }
 .container-texto {
     margin-top: 1.25rem; /*20px*/
@@ -223,36 +201,25 @@ ul {
     color: white;
 }
 .container-texto p {
-    /* margin-top: 13px; */
-    margin-top: 0.813rem;
-    /* padding-left: 15px; */
-    padding-left: 0.938rem;
-    /* padding-right: 5px; */
-    padding-right: 0.313rem;
+    margin-top: 0.813rem; /*13px*/
+    padding-left: 0.938rem; /*15px*/
+    padding-right: 0.313rem; /*5px*/
 }
 .container-texto a {
     display: block;
-    /* width: 160px; */
-    width: 10rem;
-    /* height: 40px; */
-    height: 2.5rem;
-    /* line-height: 40px; */
-    line-height: 2.5rem;
-    /* padding: 8px 3px; */
-    padding: 0.5rem 0.188rem;
-    /* margin: 15px; */
-    margin: 0.938rem;
+    width: 10rem; /*160px*/
+    height: 2.5rem; /*40px*/
+    line-height: 2.5rem; /*40px*/
+    padding: 0.5rem 0.188rem; /*8px 3px*/
+    margin: 0.938rem; /*15px*/
     background-color: #060813;
     color: white;
-    /* border-radius: 5px; */
-    border-radius: 0.313rem;
+    border-radius: 0.313rem; /*5px*/
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    /* margin-top: 85px; */
-    margin-top: 5.313rem;
-    /* border: 1px solid white; */
-    border: 0.063rem solid white;
+    margin-top: 5.313rem; /*85px*/
+    border: 0.063rem solid white; /*1px*/
 }
 .container-texto a:hover {
     background-color: white;
@@ -304,8 +271,7 @@ ul {
     color:#4CDF5C;
 }
 footer {
-    /* height: 70px; */
-    height: 4.375rem;
+    height: 4.375rem; /*70px*/
     background-color: #060813;
     color: white;
     display: flex;
@@ -320,8 +286,7 @@ footer {
         font-size: 162.5%; /*26px*/
     }   
     .header-nome:hover {
-        /* font-size: 30px; */
-        font-size: 187.50%;
+        font-size: 187.50%; /*30px*/
     }
     .header-menu {
         margin-right: 7.188rem; /*115px*/
@@ -431,8 +396,7 @@ footer {
         font-size: 143.75%; /*20px*/
     }   
     .header-nome:hover {
-        /* font-size: 26px; */
-        font-size: 162.50%;
+        font-size: 162.50%; /*26px*/
     }
     .header-menu {
         margin-right: 6.25rem; /*100px*/
@@ -536,8 +500,7 @@ footer {
         font-size: 118.75%; /*19px*/
     }   
     .header-nome:hover {
-        /* font-size: 26px; */
-        font-size: 156.25%; /*25*/
+        font-size: 156.25%; /*26px*/
     }
     .header-menu {
         margin-right: 6.25rem; /*100px*/
